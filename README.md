@@ -52,13 +52,13 @@ The attributes of this data set include:
     - time before it expires: 2 hours or one day
   
 ## Inital Analysis
-Overall the proportion of the total observations that chose to accept the coupon is about 56.84%. With over half of the coupons being accepted, the specifc demographics contributing to driver acceptance or rejection is observed. This is first done by visualizing the coupon column to establish an idea as to what type of coupons promote acceptance and rejection.
+Overall the proportion of the total observations that chose to accept the coupon is about 56.84%. With over half of the coupons being accepted, the specific demographics contributing to driver acceptance or rejection are observed. This is first done by visualizing the coupon column to establish an idea as to what type of coupons promote acceptance and rejection.
 
 ![Barplot visualizing the driver coupon acceptance and rejection based on coupon type.](https://github.com/user-attachments/assets/ecd39d35-898a-4423-b8ee-7c1b89f9c0f4)
 
-The hightes acceptance seems to be both the restaurant(<20) and coffee house coupons have the hghest acceptance. It should be noted that the highest rejection is also for the coffeehouse coupons. In relation to each other, the restaurant(<20) coupons seem to have better acceptance as the rejection level is lower. Restaurant(<20) annd Carry out & Take away coupons are the only coupons with a higher acceptance proportion than rejection.
+The highest acceptance seems to be both the restaurant(<20) and coffee house coupons. It should be noted that the highest rejection is also for the coffeehouse coupons. In relation to each other, the restaurant(<20) coupons seem to have better acceptance as the rejection level is lower. Restaurant(<20) and Carry out & Take away coupons are the only coupons with a higher acceptance proportion than rejection.
 
-Next the overall data can be visualized using a histogram of the acceptance and rejection of coupons based on temperature. The temperature fall into three categories: 30°F, 55°F, and 80°F.
+Next, the overall data can be visualized using a histogram of the acceptance and rejection of coupons based on temperature. The temperature falls into three categories: 30°F, 55°F, and 80°F.
 
 ![Histogram visualizing the driver coupon acceptance and rejection based on temperatire.](https://github.com/user-attachments/assets/2352fbf6-3799-4a20-95bd-f3d4b99d0b14)
 
