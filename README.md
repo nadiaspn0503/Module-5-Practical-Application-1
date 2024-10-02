@@ -117,7 +117,7 @@ The acceptance of the Carry out & Take Away coupons for drivers who go to a reas
 
 4. Comparing the Carry out & Take Away coupon acceptance rate of drivers who got Carry out & Take Away more than once a month, with no passengers, after noon to all others.
 
-![Barplot visualizing the driver acceptance and rejection of Carry out & Take Away coupons based on those who get take out more than once a month, with no passengers, after noon.](https://github.com/user-attachments/assets/055f090d-081d-426b-ad1c-b8b23940eabe)
+![Barplot visualizing the driver acceptance and rejection of Carry out & Take Away coupons based on those who get take out more than once a month, with no passengers, after noon to all others.](https://github.com/user-attachments/assets/4872a826-edb1-48f3-aa8e-8d094bb2b252)
 
 The acceptance of the Carry out & Take Away coupons for drivers who get take out more than once a month (1-3, 4-8, and greater than 8 times a month), with no passengers (Alone), after noon (2PM, 6PM, and 10PM) is about 81.33%. The acceptance of the Carry out & Take Away coupons for all other drivers is about 71.50%.
 
