@@ -96,12 +96,12 @@ The acceptance of the bar coupons for drivers who go to a cheap restaurant more 
 ## Carry out & Take Away Coupon Analysis
 The demographics that affect the acceptance and rejection of Carry out & Take Away coupons can be identified once a DataFrame of just the Carry out & Take Away coupons is created. From this DataFrame it is identified that the proportion of the total Carry out & Take Away coupons that are accepted is about 73.55%. With a significant amount of the coupons being accepted, the specific demographics contributing to driver acceptance or rejection of Carry out & Take Away coupons are observed. This is done through 4 different observations.
 
-1. Comparing the Carry out & Take Away coupon acceptance rate of drivers who went get take out 3 times or fewer a month to those who went more.
+1. Comparing the Carry out & Take Away coupon acceptance rate of drivers who went get Carry out & Take Away 3 times or fewer a month to those who went more.
 
 ![Barplot visualizing the driver acceptance and rejection of Carry out & Take Away coupons based on the number of times take out was gotten a month.](https://github.com/user-attachments/assets/e88010ee-5a18-4eab-a9a6-0ffdd69d9df3)
 
 
-The acceptance of the Carry out & Take Away coupons for people who get take out 3 times or less a month (never, less than 1, and 1-3 times a month) is about 72.31%. The acceptance of the Carry out & Take Away coupons for people who get take out more than 3 times a month (4-8 and greater than 8 times a month) is about 74.96%. It should be noted that these proportions are specific to their own category. The acceptance rate for those who get take out 3 times or less a month does not include those who get take out more than 3 times a month. This is shown in the barplot. Despite te proportion of acceptance for drivers who get take out more than 3 times a month being higher, the barplot shows that when comparing all 5 criteria togther, the acceptance for drivers who get take out 1-3 and 4-8 times a month have the highest acceptance overall. 
+The acceptance of the Carry out & Take Away coupons for people who get take out 3 times or less a month (never, less than 1, and 1-3 times a month) is about 72.31%. The acceptance of the Carry out & Take Away coupons for people who get take out more than 3 times a month (4-8 and greater than 8 times a month) is about 74.96%. It should be noted that these proportions are specific to their own category. The acceptance rate for those who get take out 3 times or less a month does not include those who get take out more than 3 times a month. This is shown in the barplot. Despite the proportion of acceptance for drivers who get take out more than 3 times a month being higher, the barplot shows that when comparing all 5 criteria together, the acceptance for drivers who get take out 1-3 and 4-8 times a month have the highest acceptance overall. 
 
 2. Comparing the Carry out & Take Away coupon acceptance rate of drivers who got Carry out & Take Away more than once a month with an income below $50K to all others.
 
@@ -109,15 +109,15 @@ The acceptance of the Carry out & Take Away coupons for people who get take out 
 
 The acceptance of the Carry out & Take Away coupons for drivers who get take out more than once a month (1-3, 4-8, and greater than 8 times a month) with an income below $50K (Less than $12500','$12500 - $24999','$25000 - $37499','$37500 - $49999) is about 75.09%. The acceptance of the Carry out & Take Away coupons for all other drivers is about 72.31%.
 
-3. Comparing the Carry out & Take Away coupon acceptance rate of drivers who go to a reasonably priced restaurant more than once a month and are under the age of 26 to all others.
+3. Comparing the Carry out & Take Away coupon acceptance rate of drivers who go to a restaurant priced $20-$50 more than once a month and are under the age of 26 to all others.
 
 ![Barplot visualizing the driver acceptance and rejection of Carry out & Take Away coupons based those who go to a cheap restaurant more than once a month and are under the age of 26 to all others.](https://github.com/user-attachments/assets/40aae734-aa94-455a-a6b1-3e48e988cc4c)
 
 The acceptance of the Carry out & Take Away coupons for drivers who go to a reasonably priced restaurant ($20-$50) more than once a month (1-3, 4-8, and greater than 8 times a month) and are under the age of 26 (below21 and 21 years old) is about 75.05%. The acceptance of the Carry out & Take Away coupons for all other drivers is about 73.18%.
 
-4. Comparing the Carry out & Take Away coupon acceptance rate of drivers who got Carry out & Take Away more than once a month with no passengers after noon to all others.
+4. Comparing the Carry out & Take Away coupon acceptance rate of drivers who got Carry out & Take Away more than once a month, with no passengers, after noon to all others.
 
-![arplot visualizing the driver acceptance and rejection of Carry out & Take Away coupons based on those who get take out more than once a month, with no passengers, after noon.](https://github.com/user-attachments/assets/055f090d-081d-426b-ad1c-b8b23940eabe)
+![Barplot visualizing the driver acceptance and rejection of Carry out & Take Away coupons based on those who get take out more than once a month, with no passengers, after noon.](https://github.com/user-attachments/assets/055f090d-081d-426b-ad1c-b8b23940eabe)
 
 The acceptance of the Carry out & Take Away coupons for drivers who get take out more than once a month (1-3, 4-8, and greater than 8 times a month), with no passengers (Alone), after noon (2PM, 6PM, and 10PM) is about 81.33%. The acceptance of the Carry out & Take Away coupons for all other drivers is about 71.50%.
 
