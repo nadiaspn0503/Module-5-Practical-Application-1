@@ -50,3 +50,8 @@ The attributes of this data set include:
 
 3. Coupon attributes
     - time before it expires: 2 hours or one day
+  
+## Inital Analysis
+Overall the proportion of the total observations that chose to accept the coupon is about 56.84. With over half of the coupons being accepted, the specifc demographics contributing to driver acceptance or rejection is observated. This is first done by visualizing the coupon column to establish an idea as to what type of coupons promote acceptance and rejection.
+
+![Barplot visualizing the driver coupon acceptance and rejection based on coupon type.](https://github.com/user-attachments/assets/ecd39d35-898a-4423-b8ee-7c1b89f9c0f4)
