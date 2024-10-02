@@ -52,6 +52,52 @@ The attributes of this data set include:
     - time before it expires: 2 hours or one day
   
 ## Inital Analysis
-Overall the proportion of the total observations that chose to accept the coupon is about 56.84. With over half of the coupons being accepted, the specifc demographics contributing to driver acceptance or rejection is observated. This is first done by visualizing the coupon column to establish an idea as to what type of coupons promote acceptance and rejection.
+Overall the proportion of the total observations that chose to accept the coupon is about 56.84%. With over half of the coupons being accepted, the specifc demographics contributing to driver acceptance or rejection is observed. This is first done by visualizing the coupon column to establish an idea as to what type of coupons promote acceptance and rejection.
 
 ![Barplot visualizing the driver coupon acceptance and rejection based on coupon type.](https://github.com/user-attachments/assets/ecd39d35-898a-4423-b8ee-7c1b89f9c0f4)
+
+The hightes acceptance seems to be both the restaurant(<20) and coffee house coupons have the hghest acceptance. It should be noted that the highest rejection is also for the coffeehouse coupons. In relation to each other, the restaurant(<20) coupons seem to have better acceptance as the rejection level is lower. Restaurant(<20) annd Carry out & Take away coupons are the only coupons with a higher acceptance proportion than rejection.
+
+Next the overall data can be visualized using a histogram of the acceptance and rejection of coupons based on temperature. The temperature fall into three categories: 30°F, 55°F, and 80°F.
+
+![Histogram visualizing the driver coupon acceptance and rejection based on temperatire.](https://github.com/user-attachments/assets/2352fbf6-3799-4a20-95bd-f3d4b99d0b14)
+
+Although rejection based on temperature seems to be higher than acceptance. Warmer temperatures tend to lead to higher acceptance. This goes hand in hand with the fact that sunny weather usually results in an acceptance compared to rainy and snowy weather.
+
+![Histogram visualizing the driver coupon acceptance and rejection based on weather.](https://github.com/user-attachments/assets/d7cbef17-608d-45d2-a19a-0ad9e7c47ece)
+
+## Bar Coupon Analysis
+The demographics that affect the acceptance and rejection of bar coupons can be idetified once a DataFrame of just the bar coupons is created. From this DataFrame it is identified that the proportion of the total bar coupons that are accepted is about 41%. With under half of the coupons being accepted, the specifc demographics contributing to driver acceptance or rejection of bar coupons is observed. This is done through 4 different observations.
+
+1. Comparing the bar coupon acceptance rate of drivers who went to the bar 3 times or fewer a month to those who went more.
+
+![Barplot visualizing the driver acceptance and rejection of bar coupons based on the number of times the bar was visted a month.](https://github.com/user-attachments/assets/5d84fc63-a804-4d4e-b2a0-55c634d92971)
+
+The acceptance of the bar coupons for people who vist the bar 3 times or less a month (never, less than 1, and 1~3 times a month) is about 37.07%. The acceptance of the bar coupons for people who vist the bar more than 3 times a month (4~8 and greater than 8 times a month) is about 76.88%. It should be noted that these proportions are specific to their own category. The acceptance rate for those visiting the bar 3 times or less a month does not include those who visted the bar more than 3 times a month. This is shown in the barplot. Despite te proportion of acceptance for drivers visting the bar more than 3 times a month being higher, the barplot shows that when comparing all 5 criteria togther, the acceptance for drivers who go to the bar less than once a month or 1~3 times a month have the highest acceptance overall. 
+
+2. Comparing the bar coupon acceptance rate of drivers who went to the bar more than once a month and are over the age of 25 to all others.
+
+![Barplot visualizing the driver acceptance and rejection of bar coupons based those who went to the bar more than once a month and are over the age of 25 to all others.](https://github.com/user-attachments/assets/ab263947-148b-4bc3-b826-88754a924401)
+
+The acceptance of the bar coupons for drivers who visit the bar more than once a month (1~3, 4~8, and greater than 8 times a month) and are over the age of 25 (26, 31, 36, 41, 46, and 50plus years old) is about 69.52%. The acceptance of the bar coupons for all other drivers is about 33.50%.
+
+3. Comparing the bar coupon acceptance rate of drivers who went to the bar more than once a month, with non kid passengers, and do not have a farming, fishing, or forestry occupation.
+
+![Barplot visualizing the driver acceptance and rejection of bar coupons based those who went to the bar more than once a month, with non kid passengers, and do not have a farming, fishing, or forestry occupation.](https://github.com/user-attachments/assets/e5505e2d-1306-4584-a126-851541d2f3df)
+
+The acceptance of the bar coupons for drivers who visit the bar more than once a month (1~3, 4~8, and greater than 8 times a month) with non kid passengers (Alone, Friend(s), and Partner), and do not have a farming, fishing, or forestry occupation is about 71.32%. The acceptance of the bar coupons for all other drivers is about 29.60%.
+
+4. Comparing the bar coupon acceptance rate of drivers who go to a cheap restaurant more than 4 times a month, with an income below $50K.
+
+![Barplot visualizing the driver acceptance and rejection of bar coupons based those who go to a cheap restaurant more than 4 times a month, with an income below $50K](https://github.com/user-attachments/assets/a8e9e8a6-51fb-466b-b0cd-bce414fd5f4c)
+
+The acceptance of the bar coupons for drivers who ho go to a cheap restaurant more than 4 times a month (4~8, and greater than 8 times a month) with an income below $50K (Less than $12500','$12500 - $24999','$25000 - $37499','$37500 - $49999) is about 45.35%. The acceptance of the bar coupons for all other drivers is about 40.11%.
+
+## Carry out & Take Away Coupon Analysis
+The demographics that affect the acceptance and rejection of Carry out & Take Away coupons can be idetified once a DataFrame of just the Carry out & Take Away coupons is created. From this DataFrame it is identified that the proportion of the total bar coupons that are accepted is about 41%. With under half of the coupons being accepted, the specifc demographics contributing to driver acceptance or rejection of bar coupons is observed. This is done through 4 different observations.
+
+1. Comparing the bar coupon acceptance rate of drivers who went to the bar 3 times or fewer a month to those who went more.
+
+![Barplot visualizing the driver acceptance and rejection of bar coupons based on the number of times the bar was visted a month.](https://github.com/user-attachments/assets/5d84fc63-a804-4d4e-b2a0-55c634d92971)
+
+The acceptance of the bar coupons for people who vist the bar 3 times or less a month (never, less than 1, and 1~3 times a month) is about 37.07%. The acceptance of the bar coupons for people who vist the bar more than 3 times a month (4~8 and greater than 8 times a month) is about 76.88%. It should be noted that these proportions are specific to their own category. The acceptance rate for those visiting the bar 3 times or less a month does not include those who visted the bar more than 3 times a month. This is shown in the barplot. Despite te proportion of acceptance for drivers visting the bar more than 3 times a month being higher, the barplot shows that when comparing all 5 criteria togther, the acceptance for drivers who go to the bar less than once a month or 1~3 times a month have the highest acceptance overall.
